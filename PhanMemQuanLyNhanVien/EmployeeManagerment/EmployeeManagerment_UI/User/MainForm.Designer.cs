@@ -28,8 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             this.grid_listemployee = new System.Windows.Forms.DataGridView();
             this.panel1 = new System.Windows.Forms.Panel();
@@ -59,23 +59,23 @@
             // grid_listemployee
             // 
             this.grid_listemployee.BackgroundColor = System.Drawing.Color.White;
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.grid_listemployee.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle5.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle5.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.grid_listemployee.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
             this.grid_listemployee.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.grid_listemployee.DefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle6.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle6.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.grid_listemployee.DefaultCellStyle = dataGridViewCellStyle6;
             this.grid_listemployee.Dock = System.Windows.Forms.DockStyle.Fill;
             this.grid_listemployee.GridColor = System.Drawing.Color.Black;
             this.grid_listemployee.Location = new System.Drawing.Point(268, 162);
@@ -116,7 +116,7 @@
             // 
             // txt_monthcalendar
             // 
-            this.txt_monthcalendar.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.txt_monthcalendar.BackColor = System.Drawing.Color.White;
             this.txt_monthcalendar.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_monthcalendar.ForeColor = System.Drawing.Color.Black;
             this.txt_monthcalendar.Location = new System.Drawing.Point(9, 222);
@@ -139,7 +139,7 @@
             // 
             // txt_yearcalendar
             // 
-            this.txt_yearcalendar.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.txt_yearcalendar.BackColor = System.Drawing.Color.White;
             this.txt_yearcalendar.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_yearcalendar.ForeColor = System.Drawing.Color.Black;
             this.txt_yearcalendar.Location = new System.Drawing.Point(143, 222);
@@ -162,7 +162,7 @@
             // 
             // btn_calendar
             // 
-            this.btn_calendar.BackColor = System.Drawing.Color.White;
+            this.btn_calendar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.btn_calendar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_calendar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn_calendar.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -178,8 +178,7 @@
             // 
             // btn_addeditemployee
             // 
-            this.btn_addeditemployee.BackColor = System.Drawing.Color.White;
-            this.btn_addeditemployee.BackgroundImage = global::EmployeeManagerment_UI.Properties.Resources.nv_01;
+            this.btn_addeditemployee.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.btn_addeditemployee.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_addeditemployee.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn_addeditemployee.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -189,6 +188,7 @@
             this.btn_addeditemployee.Name = "btn_addeditemployee";
             this.btn_addeditemployee.Size = new System.Drawing.Size(267, 64);
             this.btn_addeditemployee.TabIndex = 13;
+            this.btn_addeditemployee.Text = "Nhân Viên";
             this.btn_addeditemployee.UseVisualStyleBackColor = false;
             this.btn_addeditemployee.Click += new System.EventHandler(this.btn_addeditemployee_Click);
             // 
@@ -209,7 +209,6 @@
             // 
             // btn_accountmanagement
             // 
-            this.btn_accountmanagement.BackgroundImage = global::EmployeeManagerment_UI.Properties.Resources.id_01;
             this.btn_accountmanagement.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_accountmanagement.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn_accountmanagement.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -219,12 +218,12 @@
             this.btn_accountmanagement.Name = "btn_accountmanagement";
             this.btn_accountmanagement.Size = new System.Drawing.Size(267, 64);
             this.btn_accountmanagement.TabIndex = 15;
+            this.btn_accountmanagement.Text = "Tài khoản";
             this.btn_accountmanagement.UseVisualStyleBackColor = false;
             this.btn_accountmanagement.Click += new System.EventHandler(this.btn_accountmanagement_Click);
             // 
             // btn_addeditevent
             // 
-            this.btn_addeditevent.BackgroundImage = global::EmployeeManagerment_UI.Properties.Resources.sk_01;
             this.btn_addeditevent.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_addeditevent.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn_addeditevent.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -234,12 +233,12 @@
             this.btn_addeditevent.Name = "btn_addeditevent";
             this.btn_addeditevent.Size = new System.Drawing.Size(267, 64);
             this.btn_addeditevent.TabIndex = 16;
+            this.btn_addeditevent.Text = "Sự kiện";
             this.btn_addeditevent.UseVisualStyleBackColor = false;
             this.btn_addeditevent.Click += new System.EventHandler(this.btn_addeditevent_Click);
             // 
             // btn_reload
             // 
-            this.btn_reload.BackgroundImage = global::EmployeeManagerment_UI.Properties.Resources.tailai;
             this.btn_reload.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_reload.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn_reload.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -249,6 +248,7 @@
             this.btn_reload.Name = "btn_reload";
             this.btn_reload.Size = new System.Drawing.Size(267, 64);
             this.btn_reload.TabIndex = 17;
+            this.btn_reload.Text = "Tải lại";
             this.btn_reload.UseVisualStyleBackColor = false;
             this.btn_reload.Click += new System.EventHandler(this.btn_reload_Click);
             // 
@@ -270,7 +270,6 @@
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.panel2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel2.BackgroundImage")));
             this.panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panel2.Controls.Add(this.pictureBox2);
             this.panel2.Controls.Add(this.bnt_supplier);
