@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ContractForm));
             this.grid_listcontract = new System.Windows.Forms.DataGridView();
             this.btn_addcontract = new System.Windows.Forms.Button();
             this.btn_deletecontract = new System.Windows.Forms.Button();
@@ -79,7 +80,7 @@
             // 
             // btn_addcontract
             // 
-            this.btn_addcontract.BackgroundImage = global::EmployeeManagerment_UI.Properties.Resources.Thembtn_01;
+            this.btn_addcontract.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.btn_addcontract.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_addcontract.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn_addcontract.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -89,12 +90,13 @@
             this.btn_addcontract.Name = "btn_addcontract";
             this.btn_addcontract.Size = new System.Drawing.Size(195, 50);
             this.btn_addcontract.TabIndex = 10;
-            this.btn_addcontract.UseVisualStyleBackColor = true;
+            this.btn_addcontract.Text = "Thêm";
+            this.btn_addcontract.UseVisualStyleBackColor = false;
             this.btn_addcontract.Click += new System.EventHandler(this.btn_addcontract_Click);
             // 
             // btn_deletecontract
             // 
-            this.btn_deletecontract.BackgroundImage = global::EmployeeManagerment_UI.Properties.Resources.xoabtn_01;
+            this.btn_deletecontract.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.btn_deletecontract.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_deletecontract.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn_deletecontract.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -104,12 +106,13 @@
             this.btn_deletecontract.Name = "btn_deletecontract";
             this.btn_deletecontract.Size = new System.Drawing.Size(195, 50);
             this.btn_deletecontract.TabIndex = 11;
-            this.btn_deletecontract.UseVisualStyleBackColor = true;
+            this.btn_deletecontract.Text = "Xoá";
+            this.btn_deletecontract.UseVisualStyleBackColor = false;
             this.btn_deletecontract.Click += new System.EventHandler(this.btn_deletecontract_Click);
             // 
             // btn_editcontract
             // 
-            this.btn_editcontract.BackgroundImage = global::EmployeeManagerment_UI.Properties.Resources.suabtn_01;
+            this.btn_editcontract.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.btn_editcontract.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_editcontract.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn_editcontract.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -119,12 +122,13 @@
             this.btn_editcontract.Name = "btn_editcontract";
             this.btn_editcontract.Size = new System.Drawing.Size(195, 50);
             this.btn_editcontract.TabIndex = 12;
-            this.btn_editcontract.UseVisualStyleBackColor = true;
+            this.btn_editcontract.Text = "Sửa";
+            this.btn_editcontract.UseVisualStyleBackColor = false;
             this.btn_editcontract.Click += new System.EventHandler(this.btn_editcontract_Click);
             // 
             // btn_reloadcontract
             // 
-            this.btn_reloadcontract.BackgroundImage = global::EmployeeManagerment_UI.Properties.Resources.tailai;
+            this.btn_reloadcontract.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.btn_reloadcontract.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_reloadcontract.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn_reloadcontract.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -134,7 +138,8 @@
             this.btn_reloadcontract.Name = "btn_reloadcontract";
             this.btn_reloadcontract.Size = new System.Drawing.Size(195, 50);
             this.btn_reloadcontract.TabIndex = 13;
-            this.btn_reloadcontract.UseVisualStyleBackColor = true;
+            this.btn_reloadcontract.Text = "tải Lại";
+            this.btn_reloadcontract.UseVisualStyleBackColor = false;
             this.btn_reloadcontract.Click += new System.EventHandler(this.btn_reloadcontract_Click);
             // 
             // pictureBox1
@@ -150,7 +155,7 @@
             // 
             // pictureBox2
             // 
-            this.pictureBox2.BackgroundImage = global::EmployeeManagerment_UI.Properties.Resources.header_conpanyname_contracr_01;
+            this.pictureBox2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox2.BackgroundImage")));
             this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox2.Location = new System.Drawing.Point(0, 0);
             this.pictureBox2.Name = "pictureBox2";
@@ -390,7 +395,7 @@
             // 
             // panel1
             // 
-            this.panel1.BackgroundImage = global::EmployeeManagerment_UI.Properties.Resources.Untitled_1_01;
+            this.panel1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel1.BackgroundImage")));
             this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panel1.Controls.Add(this.dtp_signdate);
             this.panel1.Controls.Add(this.label8);
@@ -433,7 +438,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::EmployeeManagerment_UI.Properties.Resources.Untitled_1_01;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(861, 607);
             this.Controls.Add(this.btn_backcontract);

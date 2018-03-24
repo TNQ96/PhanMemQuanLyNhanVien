@@ -98,8 +98,7 @@
             // 
             // btn_exit
             // 
-            this.btn_exit.BackColor = System.Drawing.Color.Transparent;
-            this.btn_exit.BackgroundImage = global::EmployeeManagerment_UI.Properties.Resources._22407768_1001141770028985_1522062737_n;
+            this.btn_exit.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.btn_exit.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_exit.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn_exit.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -108,13 +107,13 @@
             this.btn_exit.Name = "btn_exit";
             this.btn_exit.Size = new System.Drawing.Size(162, 44);
             this.btn_exit.TabIndex = 35;
+            this.btn_exit.Text = "Thoát";
             this.btn_exit.UseVisualStyleBackColor = false;
             this.btn_exit.Click += new System.EventHandler(this.btn_exit_Click);
             // 
             // btn_submit
             // 
-            this.btn_submit.BackColor = System.Drawing.Color.Transparent;
-            this.btn_submit.BackgroundImage = global::EmployeeManagerment_UI.Properties.Resources._22385022_1001140920029070_1646664535_n;
+            this.btn_submit.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.btn_submit.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_submit.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn_submit.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -123,6 +122,7 @@
             this.btn_submit.Name = "btn_submit";
             this.btn_submit.Size = new System.Drawing.Size(162, 44);
             this.btn_submit.TabIndex = 33;
+            this.btn_submit.Text = "Đồng Ý";
             this.btn_submit.UseVisualStyleBackColor = false;
             this.btn_submit.Click += new System.EventHandler(this.btn_submit_Click);
             // 
@@ -218,7 +218,7 @@
             // pictureBox3
             // 
             this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox3.BackgroundImage = global::EmployeeManagerment_UI.Properties.Resources.fb_01;
+            this.pictureBox3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox3.BackgroundImage")));
             this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox3.Location = new System.Drawing.Point(1, 0);
             this.pictureBox3.Name = "pictureBox3";
@@ -506,7 +506,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::EmployeeManagerment_UI.Properties.Resources.Untitled_1_01;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(861, 607);
             this.Controls.Add(this.rtxt_usershare);

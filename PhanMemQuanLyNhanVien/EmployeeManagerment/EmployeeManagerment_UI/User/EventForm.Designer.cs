@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(EventForm));
             this.btn_addevent = new System.Windows.Forms.Button();
             this.btn_deleteevent = new System.Windows.Forms.Button();
             this.btn_editevent = new System.Windows.Forms.Button();
@@ -70,7 +71,7 @@
             // 
             // btn_addevent
             // 
-            this.btn_addevent.BackgroundImage = global::EmployeeManagerment_UI.Properties.Resources.Thembtn_01;
+            this.btn_addevent.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.btn_addevent.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_addevent.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn_addevent.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -80,12 +81,13 @@
             this.btn_addevent.Name = "btn_addevent";
             this.btn_addevent.Size = new System.Drawing.Size(195, 50);
             this.btn_addevent.TabIndex = 12;
-            this.btn_addevent.UseVisualStyleBackColor = true;
+            this.btn_addevent.Text = "Thêm";
+            this.btn_addevent.UseVisualStyleBackColor = false;
             this.btn_addevent.Click += new System.EventHandler(this.btn_addevent_Click);
             // 
             // btn_deleteevent
             // 
-            this.btn_deleteevent.BackgroundImage = global::EmployeeManagerment_UI.Properties.Resources.xoabtn_01;
+            this.btn_deleteevent.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.btn_deleteevent.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_deleteevent.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn_deleteevent.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -95,12 +97,13 @@
             this.btn_deleteevent.Name = "btn_deleteevent";
             this.btn_deleteevent.Size = new System.Drawing.Size(195, 50);
             this.btn_deleteevent.TabIndex = 13;
-            this.btn_deleteevent.UseVisualStyleBackColor = true;
+            this.btn_deleteevent.Text = "Xóa";
+            this.btn_deleteevent.UseVisualStyleBackColor = false;
             this.btn_deleteevent.Click += new System.EventHandler(this.btn_deleteevent_Click);
             // 
             // btn_editevent
             // 
-            this.btn_editevent.BackgroundImage = global::EmployeeManagerment_UI.Properties.Resources.suabtn_01;
+            this.btn_editevent.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.btn_editevent.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_editevent.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn_editevent.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -110,12 +113,13 @@
             this.btn_editevent.Name = "btn_editevent";
             this.btn_editevent.Size = new System.Drawing.Size(195, 50);
             this.btn_editevent.TabIndex = 14;
-            this.btn_editevent.UseVisualStyleBackColor = true;
+            this.btn_editevent.Text = "Sửa";
+            this.btn_editevent.UseVisualStyleBackColor = false;
             this.btn_editevent.Click += new System.EventHandler(this.btn_editevent_Click);
             // 
             // panel1
             // 
-            this.panel1.BackgroundImage = global::EmployeeManagerment_UI.Properties.Resources.Untitled_1_01;
+            this.panel1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel1.BackgroundImage")));
             this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panel1.Controls.Add(this.tabControl1);
             this.panel1.Controls.Add(this.dtp_dateend);
@@ -426,7 +430,7 @@
             // 
             // btn_reloadevent
             // 
-            this.btn_reloadevent.BackgroundImage = global::EmployeeManagerment_UI.Properties.Resources.tailai;
+            this.btn_reloadevent.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.btn_reloadevent.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_reloadevent.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn_reloadevent.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -436,7 +440,8 @@
             this.btn_reloadevent.Name = "btn_reloadevent";
             this.btn_reloadevent.Size = new System.Drawing.Size(195, 50);
             this.btn_reloadevent.TabIndex = 15;
-            this.btn_reloadevent.UseVisualStyleBackColor = true;
+            this.btn_reloadevent.Text = "Tải Lại";
+            this.btn_reloadevent.UseVisualStyleBackColor = false;
             this.btn_reloadevent.Click += new System.EventHandler(this.btn_reloadevent_Click);
             // 
             // pictureBox1
@@ -451,7 +456,7 @@
             // 
             // pictureBox2
             // 
-            this.pictureBox2.BackgroundImage = global::EmployeeManagerment_UI.Properties.Resources.header_conpanyname_ev_01;
+            this.pictureBox2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox2.BackgroundImage")));
             this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox2.Location = new System.Drawing.Point(0, 0);
             this.pictureBox2.Name = "pictureBox2";
@@ -461,21 +466,23 @@
             // 
             // btn_backevent
             // 
-            this.btn_backevent.BackgroundImage = global::EmployeeManagerment_UI.Properties.Resources.Trolaibtn_01;
+            this.btn_backevent.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.btn_backevent.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_backevent.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btn_backevent.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.btn_backevent.Location = new System.Drawing.Point(1, 520);
             this.btn_backevent.Name = "btn_backevent";
             this.btn_backevent.Size = new System.Drawing.Size(195, 48);
             this.btn_backevent.TabIndex = 43;
-            this.btn_backevent.UseVisualStyleBackColor = true;
+            this.btn_backevent.Text = "Quay lại";
+            this.btn_backevent.UseVisualStyleBackColor = false;
             this.btn_backevent.Click += new System.EventHandler(this.btn_backevent_Click);
             // 
             // EventForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::EmployeeManagerment_UI.Properties.Resources.Untitled_1_01;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(861, 607);
             this.Controls.Add(this.btn_backevent);
