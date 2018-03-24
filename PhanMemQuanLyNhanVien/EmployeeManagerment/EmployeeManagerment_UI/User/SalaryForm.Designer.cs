@@ -80,7 +80,7 @@
             this.btn_editsalary.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_editsalary.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn_editsalary.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_editsalary.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(1)))));
+            this.btn_editsalary.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0))))
             this.btn_editsalary.Location = new System.Drawing.Point(0, 229);
             this.btn_editsalary.Margin = new System.Windows.Forms.Padding(1);
             this.btn_editsalary.Name = "btn_editsalary";
@@ -101,7 +101,8 @@
             this.btn_deletesalary.Name = "btn_deletesalary";
             this.btn_deletesalary.Size = new System.Drawing.Size(195, 50);
             this.btn_deletesalary.TabIndex = 16;
-            this.btn_deletesalary.Text = "Xóa";
+
+            this.btn_deletesalary.Text = "XOÁ";
             this.btn_deletesalary.UseVisualStyleBackColor = false;
             // 
             // btn_addsalary
@@ -116,7 +117,8 @@
             this.btn_addsalary.Name = "btn_addsalary";
             this.btn_addsalary.Size = new System.Drawing.Size(195, 50);
             this.btn_addsalary.TabIndex = 15;
-            this.btn_addsalary.Text = "Thêm ";
+
+            this.btn_addsalary.Text = "THÊM";
             this.btn_addsalary.UseVisualStyleBackColor = false;
             // 
             // btn_reloadsalary

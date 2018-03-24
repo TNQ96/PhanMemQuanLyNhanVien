@@ -377,6 +377,7 @@
             this.rtxt_reasonborrow.BackColor = System.Drawing.Color.AliceBlue;
             this.rtxt_reasonborrow.Dock = System.Windows.Forms.DockStyle.Fill;
             this.rtxt_reasonborrow.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rtxt_reasonborrow.ForeColor = System.Drawing.SystemColors.Info;
             this.rtxt_reasonborrow.Location = new System.Drawing.Point(0, 0);
             this.rtxt_reasonborrow.Margin = new System.Windows.Forms.Padding(2);
             this.rtxt_reasonborrow.Name = "rtxt_reasonborrow";
@@ -464,6 +465,7 @@
             this.pictureBox2.Size = new System.Drawing.Size(861, 130);
             this.pictureBox2.TabIndex = 16;
             this.pictureBox2.TabStop = false;
+            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
             // btn_backsupplies
             // 
@@ -475,7 +477,7 @@
             this.btn_backsupplies.Name = "btn_backsupplies";
             this.btn_backsupplies.Size = new System.Drawing.Size(195, 48);
             this.btn_backsupplies.TabIndex = 42;
-            this.btn_backsupplies.Text = "Quay Lại";
+            this.btn_backsupplies.Text = "Quay lại";
             this.btn_backsupplies.UseVisualStyleBackColor = false;
             // 
             // SuppliesForm
