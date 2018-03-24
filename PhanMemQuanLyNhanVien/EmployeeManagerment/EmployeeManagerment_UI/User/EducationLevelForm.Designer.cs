@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(EducationLevelForm));
             this.btn_editeducationlevel = new System.Windows.Forms.Button();
             this.btn_deleteeducationlevel = new System.Windows.Forms.Button();
             this.btn_addeducationlevel = new System.Windows.Forms.Button();
@@ -68,45 +69,48 @@
             // 
             // btn_editeducationlevel
             // 
-            this.btn_editeducationlevel.BackgroundImage = global::EmployeeManagerment_UI.Properties.Resources.suabtn_01;
+            this.btn_editeducationlevel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.btn_editeducationlevel.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_editeducationlevel.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn_editeducationlevel.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_editeducationlevel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.btn_editeducationlevel.Location = new System.Drawing.Point(0, 230);
-            this.btn_editeducationlevel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_editeducationlevel.Margin = new System.Windows.Forms.Padding(2);
             this.btn_editeducationlevel.Name = "btn_editeducationlevel";
             this.btn_editeducationlevel.Size = new System.Drawing.Size(195, 50);
             this.btn_editeducationlevel.TabIndex = 22;
-            this.btn_editeducationlevel.UseVisualStyleBackColor = true;
+            this.btn_editeducationlevel.Text = "Sửa";
+            this.btn_editeducationlevel.UseVisualStyleBackColor = false;
             // 
             // btn_deleteeducationlevel
             // 
-            this.btn_deleteeducationlevel.BackgroundImage = global::EmployeeManagerment_UI.Properties.Resources.xoabtn_01;
+            this.btn_deleteeducationlevel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.btn_deleteeducationlevel.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_deleteeducationlevel.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn_deleteeducationlevel.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_deleteeducationlevel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.btn_deleteeducationlevel.Location = new System.Drawing.Point(0, 180);
-            this.btn_deleteeducationlevel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_deleteeducationlevel.Margin = new System.Windows.Forms.Padding(2);
             this.btn_deleteeducationlevel.Name = "btn_deleteeducationlevel";
             this.btn_deleteeducationlevel.Size = new System.Drawing.Size(195, 50);
             this.btn_deleteeducationlevel.TabIndex = 21;
-            this.btn_deleteeducationlevel.UseVisualStyleBackColor = true;
+            this.btn_deleteeducationlevel.Text = "Xoá";
+            this.btn_deleteeducationlevel.UseVisualStyleBackColor = false;
             // 
             // btn_addeducationlevel
             // 
-            this.btn_addeducationlevel.BackgroundImage = global::EmployeeManagerment_UI.Properties.Resources.Thembtn_01;
+            this.btn_addeducationlevel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.btn_addeducationlevel.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_addeducationlevel.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn_addeducationlevel.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_addeducationlevel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.btn_addeducationlevel.Location = new System.Drawing.Point(0, 130);
-            this.btn_addeducationlevel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_addeducationlevel.Margin = new System.Windows.Forms.Padding(2);
             this.btn_addeducationlevel.Name = "btn_addeducationlevel";
             this.btn_addeducationlevel.Size = new System.Drawing.Size(195, 50);
             this.btn_addeducationlevel.TabIndex = 20;
-            this.btn_addeducationlevel.UseVisualStyleBackColor = true;
+            this.btn_addeducationlevel.Text = "Thêm ";
+            this.btn_addeducationlevel.UseVisualStyleBackColor = false;
             // 
             // btn_backeducationlevel
             // 
@@ -116,7 +120,7 @@
             this.btn_backeducationlevel.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_backeducationlevel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.btn_backeducationlevel.Location = new System.Drawing.Point(0, 520);
-            this.btn_backeducationlevel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_backeducationlevel.Margin = new System.Windows.Forms.Padding(2);
             this.btn_backeducationlevel.Name = "btn_backeducationlevel";
             this.btn_backeducationlevel.Size = new System.Drawing.Size(195, 50);
             this.btn_backeducationlevel.TabIndex = 24;
@@ -124,25 +128,26 @@
             // 
             // btn_reloadeducationlevel
             // 
-            this.btn_reloadeducationlevel.BackgroundImage = global::EmployeeManagerment_UI.Properties.Resources.tailai;
+            this.btn_reloadeducationlevel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.btn_reloadeducationlevel.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_reloadeducationlevel.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn_reloadeducationlevel.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_reloadeducationlevel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.btn_reloadeducationlevel.Location = new System.Drawing.Point(0, 280);
-            this.btn_reloadeducationlevel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_reloadeducationlevel.Margin = new System.Windows.Forms.Padding(2);
             this.btn_reloadeducationlevel.Name = "btn_reloadeducationlevel";
             this.btn_reloadeducationlevel.Size = new System.Drawing.Size(195, 50);
             this.btn_reloadeducationlevel.TabIndex = 23;
-            this.btn_reloadeducationlevel.UseVisualStyleBackColor = true;
+            this.btn_reloadeducationlevel.Text = "Tải lại";
+            this.btn_reloadeducationlevel.UseVisualStyleBackColor = false;
             // 
             // pictureBox1
             // 
-            this.pictureBox1.BackgroundImage = global::EmployeeManagerment_UI.Properties.Resources.educa_01;
+            this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Top;
             this.pictureBox1.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(861, 130);
             this.pictureBox1.TabIndex = 18;
@@ -150,7 +155,7 @@
             // 
             // panel1
             // 
-            this.panel1.BackgroundImage = global::EmployeeManagerment_UI.Properties.Resources.Untitled_1_01;
+            this.panel1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel1.BackgroundImage")));
             this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panel1.Controls.Add(this.dtp_dateout);
             this.panel1.Controls.Add(this.dtp_dateprovide);
@@ -176,7 +181,7 @@
             this.panel1.Controls.Add(this.grid_listeducationlevel);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Right;
             this.panel1.Location = new System.Drawing.Point(195, 130);
-            this.panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(666, 477);
             this.panel1.TabIndex = 0;
@@ -186,7 +191,7 @@
             this.dtp_dateout.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dtp_dateout.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.dtp_dateout.Location = new System.Drawing.Point(522, 146);
-            this.dtp_dateout.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dtp_dateout.Margin = new System.Windows.Forms.Padding(2);
             this.dtp_dateout.Name = "dtp_dateout";
             this.dtp_dateout.Size = new System.Drawing.Size(122, 29);
             this.dtp_dateout.TabIndex = 10;
@@ -196,7 +201,7 @@
             this.dtp_dateprovide.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dtp_dateprovide.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.dtp_dateprovide.Location = new System.Drawing.Point(522, 114);
-            this.dtp_dateprovide.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dtp_dateprovide.Margin = new System.Windows.Forms.Padding(2);
             this.dtp_dateprovide.Name = "dtp_dateprovide";
             this.dtp_dateprovide.Size = new System.Drawing.Size(122, 29);
             this.dtp_dateprovide.TabIndex = 9;
@@ -205,7 +210,7 @@
             // 
             this.txt_major.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_major.Location = new System.Drawing.Point(193, 146);
-            this.txt_major.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txt_major.Margin = new System.Windows.Forms.Padding(2);
             this.txt_major.Name = "txt_major";
             this.txt_major.Size = new System.Drawing.Size(148, 29);
             this.txt_major.TabIndex = 5;
@@ -214,7 +219,7 @@
             // 
             this.txt_result.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_result.Location = new System.Drawing.Point(522, 79);
-            this.txt_result.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txt_result.Margin = new System.Windows.Forms.Padding(2);
             this.txt_result.Name = "txt_result";
             this.txt_result.Size = new System.Drawing.Size(122, 29);
             this.txt_result.TabIndex = 8;
@@ -223,7 +228,7 @@
             // 
             this.txt_placeprovide.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_placeprovide.Location = new System.Drawing.Point(522, 44);
-            this.txt_placeprovide.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txt_placeprovide.Margin = new System.Windows.Forms.Padding(2);
             this.txt_placeprovide.Name = "txt_placeprovide";
             this.txt_placeprovide.Size = new System.Drawing.Size(122, 29);
             this.txt_placeprovide.TabIndex = 7;
@@ -232,7 +237,7 @@
             // 
             this.txt_certificatetype.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_certificatetype.Location = new System.Drawing.Point(522, 8);
-            this.txt_certificatetype.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txt_certificatetype.Margin = new System.Windows.Forms.Padding(2);
             this.txt_certificatetype.Name = "txt_certificatetype";
             this.txt_certificatetype.Size = new System.Drawing.Size(122, 29);
             this.txt_certificatetype.TabIndex = 6;
@@ -241,7 +246,7 @@
             // 
             this.txt_nameel.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_nameel.Location = new System.Drawing.Point(193, 114);
-            this.txt_nameel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txt_nameel.Margin = new System.Windows.Forms.Padding(2);
             this.txt_nameel.Name = "txt_nameel";
             this.txt_nameel.Size = new System.Drawing.Size(148, 29);
             this.txt_nameel.TabIndex = 4;
@@ -252,7 +257,7 @@
             this.cbb_firstname.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbb_firstname.FormattingEnabled = true;
             this.cbb_firstname.Location = new System.Drawing.Point(193, 79);
-            this.cbb_firstname.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.cbb_firstname.Margin = new System.Windows.Forms.Padding(2);
             this.cbb_firstname.Name = "cbb_firstname";
             this.cbb_firstname.Size = new System.Drawing.Size(148, 32);
             this.cbb_firstname.TabIndex = 3;
@@ -263,7 +268,7 @@
             this.cbb_position.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbb_position.FormattingEnabled = true;
             this.cbb_position.Location = new System.Drawing.Point(193, 44);
-            this.cbb_position.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.cbb_position.Margin = new System.Windows.Forms.Padding(2);
             this.cbb_position.Name = "cbb_position";
             this.cbb_position.Size = new System.Drawing.Size(148, 32);
             this.cbb_position.TabIndex = 2;
@@ -280,7 +285,7 @@
             "Kinh doanh",
             "Nhân sự"});
             this.cbb_department.Location = new System.Drawing.Point(193, 8);
-            this.cbb_department.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.cbb_department.Margin = new System.Windows.Forms.Padding(2);
             this.cbb_department.Name = "cbb_department";
             this.cbb_department.Size = new System.Drawing.Size(148, 32);
             this.cbb_department.TabIndex = 1;
@@ -291,7 +296,7 @@
             this.tabControl1.Controls.Add(this.tab_note);
             this.tabControl1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tabControl1.Location = new System.Drawing.Point(0, 179);
-            this.tabControl1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tabControl1.Margin = new System.Windows.Forms.Padding(2);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
             this.tabControl1.Size = new System.Drawing.Size(666, 114);
@@ -301,7 +306,7 @@
             // 
             this.tab_note.Controls.Add(this.rtxt_noteeducationlevel);
             this.tab_note.Location = new System.Drawing.Point(4, 33);
-            this.tab_note.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tab_note.Margin = new System.Windows.Forms.Padding(2);
             this.tab_note.Name = "tab_note";
             this.tab_note.Size = new System.Drawing.Size(658, 77);
             this.tab_note.TabIndex = 0;
@@ -310,11 +315,11 @@
             // 
             // rtxt_noteeducationlevel
             // 
-            this.rtxt_noteeducationlevel.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.rtxt_noteeducationlevel.BackColor = System.Drawing.Color.AliceBlue;
             this.rtxt_noteeducationlevel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.rtxt_noteeducationlevel.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rtxt_noteeducationlevel.Location = new System.Drawing.Point(0, 0);
-            this.rtxt_noteeducationlevel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.rtxt_noteeducationlevel.Margin = new System.Windows.Forms.Padding(2);
             this.rtxt_noteeducationlevel.Name = "rtxt_noteeducationlevel";
             this.rtxt_noteeducationlevel.Size = new System.Drawing.Size(658, 77);
             this.rtxt_noteeducationlevel.TabIndex = 11;
@@ -456,7 +461,7 @@
             this.grid_listeducationlevel.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.grid_listeducationlevel.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.grid_listeducationlevel.Location = new System.Drawing.Point(0, 293);
-            this.grid_listeducationlevel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.grid_listeducationlevel.Margin = new System.Windows.Forms.Padding(2);
             this.grid_listeducationlevel.Name = "grid_listeducationlevel";
             this.grid_listeducationlevel.RowTemplate.Height = 28;
             this.grid_listeducationlevel.Size = new System.Drawing.Size(666, 184);
@@ -466,7 +471,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::EmployeeManagerment_UI.Properties.Resources.Untitled_1_01;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(861, 607);
             this.Controls.Add(this.panel1);
@@ -478,7 +483,7 @@
             this.Controls.Add(this.btn_reloadeducationlevel);
             this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "EducationLevelForm";
