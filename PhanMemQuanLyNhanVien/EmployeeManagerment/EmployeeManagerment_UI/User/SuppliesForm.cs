@@ -112,5 +112,10 @@ namespace EmployeeManagerment_UI.User
                 }
             }
         }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
