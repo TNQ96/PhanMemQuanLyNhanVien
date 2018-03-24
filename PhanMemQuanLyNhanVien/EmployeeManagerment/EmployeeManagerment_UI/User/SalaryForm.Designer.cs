@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SalaryForm));
             this.btn_backsalary = new System.Windows.Forms.Button();
             this.btn_editsalary = new System.Windows.Forms.Button();
             this.btn_deletesalary = new System.Windows.Forms.Button();
@@ -60,90 +61,82 @@
             // 
             // btn_backsalary
             // 
-            this.btn_backsalary.BackgroundImage = global::EmployeeManagerment_UI.Properties.Resources.Trolaibtn_01;
+            this.btn_backsalary.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.btn_backsalary.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_backsalary.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn_backsalary.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_backsalary.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.btn_backsalary.Location = new System.Drawing.Point(0, 520);
-
             this.btn_backsalary.Location = new System.Drawing.Point(1, 520);
-
-            this.btn_backsalary.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
+            this.btn_backsalary.Margin = new System.Windows.Forms.Padding(1);
             this.btn_backsalary.Name = "btn_backsalary";
             this.btn_backsalary.Size = new System.Drawing.Size(195, 50);
             this.btn_backsalary.TabIndex = 19;
-            this.btn_backsalary.UseVisualStyleBackColor = true;
+            this.btn_backsalary.Text = "Quay lại";
+            this.btn_backsalary.UseVisualStyleBackColor = false;
             // 
             // btn_editsalary
             // 
-            this.btn_editsalary.BackgroundImage = global::EmployeeManagerment_UI.Properties.Resources.suabtn_01;
+            this.btn_editsalary.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.btn_editsalary.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_editsalary.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn_editsalary.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_editsalary.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-
-            this.btn_editsalary.Location = new System.Drawing.Point(0, 277);
-
             this.btn_editsalary.Location = new System.Drawing.Point(0, 229);
-
-            this.btn_editsalary.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
+            this.btn_editsalary.Margin = new System.Windows.Forms.Padding(1);
             this.btn_editsalary.Name = "btn_editsalary";
             this.btn_editsalary.Size = new System.Drawing.Size(195, 50);
             this.btn_editsalary.TabIndex = 17;
-            this.btn_editsalary.UseVisualStyleBackColor = true;
+            this.btn_editsalary.Text = "Sửa";
+            this.btn_editsalary.UseVisualStyleBackColor = false;
             // 
             // btn_deletesalary
             // 
-            this.btn_deletesalary.BackgroundImage = global::EmployeeManagerment_UI.Properties.Resources.xoabtn_01;
+            this.btn_deletesalary.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.btn_deletesalary.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_deletesalary.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn_deletesalary.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_deletesalary.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-
-            this.btn_deletesalary.Location = new System.Drawing.Point(0, 228);
-
             this.btn_deletesalary.Location = new System.Drawing.Point(0, 180);
-
-            this.btn_deletesalary.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
+            this.btn_deletesalary.Margin = new System.Windows.Forms.Padding(1);
             this.btn_deletesalary.Name = "btn_deletesalary";
             this.btn_deletesalary.Size = new System.Drawing.Size(195, 50);
             this.btn_deletesalary.TabIndex = 16;
-            this.btn_deletesalary.UseVisualStyleBackColor = true;
+            this.btn_deletesalary.Text = "Xóa";
+            this.btn_deletesalary.UseVisualStyleBackColor = false;
             // 
             // btn_addsalary
             // 
-            this.btn_addsalary.BackgroundImage = global::EmployeeManagerment_UI.Properties.Resources.Thembtn_01;
+            this.btn_addsalary.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.btn_addsalary.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_addsalary.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn_addsalary.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_addsalary.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.btn_addsalary.Location = new System.Drawing.Point(0, 179);
             this.btn_addsalary.Location = new System.Drawing.Point(0, 131);
-            this.btn_addsalary.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
+            this.btn_addsalary.Margin = new System.Windows.Forms.Padding(1);
             this.btn_addsalary.Name = "btn_addsalary";
             this.btn_addsalary.Size = new System.Drawing.Size(195, 50);
             this.btn_addsalary.TabIndex = 15;
-            this.btn_addsalary.UseVisualStyleBackColor = true;
+            this.btn_addsalary.Text = "Thêm ";
+            this.btn_addsalary.UseVisualStyleBackColor = false;
             // 
             // btn_reloadsalary
             // 
-            this.btn_reloadsalary.BackgroundImage = global::EmployeeManagerment_UI.Properties.Resources.tailai;
+            this.btn_reloadsalary.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.btn_reloadsalary.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_reloadsalary.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn_reloadsalary.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_reloadsalary.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.btn_reloadsalary.Location = new System.Drawing.Point(0, 130);
             this.btn_reloadsalary.Location = new System.Drawing.Point(0, 278);
-            this.btn_reloadsalary.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
+            this.btn_reloadsalary.Margin = new System.Windows.Forms.Padding(1);
             this.btn_reloadsalary.Name = "btn_reloadsalary";
             this.btn_reloadsalary.Size = new System.Drawing.Size(195, 50);
             this.btn_reloadsalary.TabIndex = 18;
-            this.btn_reloadsalary.UseVisualStyleBackColor = true;
+            this.btn_reloadsalary.Text = "Tải Lại";
+            this.btn_reloadsalary.UseVisualStyleBackColor = false;
             // 
             // panel1
             // 
-            this.panel1.BackgroundImage = global::EmployeeManagerment_UI.Properties.Resources.Untitled_1_01;
+            this.panel1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel1.BackgroundImage")));
             this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panel1.Controls.Add(this.txt_yearbonus);
             this.panel1.Controls.Add(this.txt_monthbonus);
@@ -161,7 +154,7 @@
             this.panel1.Controls.Add(this.grid_listsalary);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Right;
             this.panel1.Location = new System.Drawing.Point(195, 130);
-            this.panel1.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
+            this.panel1.Margin = new System.Windows.Forms.Padding(1);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(666, 477);
             this.panel1.TabIndex = 0;
@@ -170,7 +163,7 @@
             // 
             this.txt_yearbonus.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_yearbonus.Location = new System.Drawing.Point(522, 108);
-            this.txt_yearbonus.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txt_yearbonus.Margin = new System.Windows.Forms.Padding(2);
             this.txt_yearbonus.Name = "txt_yearbonus";
             this.txt_yearbonus.Size = new System.Drawing.Size(122, 29);
             this.txt_yearbonus.TabIndex = 6;
@@ -179,7 +172,7 @@
             // 
             this.txt_monthbonus.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_monthbonus.Location = new System.Drawing.Point(522, 57);
-            this.txt_monthbonus.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txt_monthbonus.Margin = new System.Windows.Forms.Padding(2);
             this.txt_monthbonus.Name = "txt_monthbonus";
             this.txt_monthbonus.Size = new System.Drawing.Size(122, 29);
             this.txt_monthbonus.TabIndex = 5;
@@ -188,7 +181,7 @@
             // 
             this.txt_moneybonus.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_moneybonus.Location = new System.Drawing.Point(522, 8);
-            this.txt_moneybonus.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txt_moneybonus.Margin = new System.Windows.Forms.Padding(2);
             this.txt_moneybonus.Name = "txt_moneybonus";
             this.txt_moneybonus.Size = new System.Drawing.Size(122, 29);
             this.txt_moneybonus.TabIndex = 4;
@@ -199,7 +192,7 @@
             this.cbb_firstname.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbb_firstname.FormattingEnabled = true;
             this.cbb_firstname.Location = new System.Drawing.Point(193, 108);
-            this.cbb_firstname.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.cbb_firstname.Margin = new System.Windows.Forms.Padding(2);
             this.cbb_firstname.Name = "cbb_firstname";
             this.cbb_firstname.Size = new System.Drawing.Size(148, 32);
             this.cbb_firstname.TabIndex = 3;
@@ -210,7 +203,7 @@
             this.cbb_position.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbb_position.FormattingEnabled = true;
             this.cbb_position.Location = new System.Drawing.Point(193, 57);
-            this.cbb_position.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.cbb_position.Margin = new System.Windows.Forms.Padding(2);
             this.cbb_position.Name = "cbb_position";
             this.cbb_position.Size = new System.Drawing.Size(148, 32);
             this.cbb_position.TabIndex = 2;
@@ -226,12 +219,8 @@
             "Công nghệ thông tin",
             "Kinh doanh",
             "Nhân sự"});
-
-            this.cbb_department.Location = new System.Drawing.Point(193, 8);
-
             this.cbb_department.Location = new System.Drawing.Point(129, 5);
-
-            this.cbb_department.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
+            this.cbb_department.Margin = new System.Windows.Forms.Padding(1);
             this.cbb_department.Name = "cbb_department";
             this.cbb_department.Size = new System.Drawing.Size(148, 32);
             this.cbb_department.TabIndex = 1;
@@ -320,7 +309,7 @@
             this.tabControl1.Controls.Add(this.tab_reasonbonus);
             this.tabControl1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tabControl1.Location = new System.Drawing.Point(0, 179);
-            this.tabControl1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tabControl1.Margin = new System.Windows.Forms.Padding(2);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
             this.tabControl1.Size = new System.Drawing.Size(666, 114);
@@ -330,7 +319,7 @@
             // 
             this.tab_reasonbonus.Controls.Add(this.rtxt_reasonbonus);
             this.tab_reasonbonus.Location = new System.Drawing.Point(4, 33);
-            this.tab_reasonbonus.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tab_reasonbonus.Margin = new System.Windows.Forms.Padding(2);
             this.tab_reasonbonus.Name = "tab_reasonbonus";
             this.tab_reasonbonus.Size = new System.Drawing.Size(658, 77);
             this.tab_reasonbonus.TabIndex = 0;
@@ -339,11 +328,11 @@
             // 
             // rtxt_reasonbonus
             // 
-            this.rtxt_reasonbonus.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.rtxt_reasonbonus.BackColor = System.Drawing.Color.AliceBlue;
             this.rtxt_reasonbonus.Dock = System.Windows.Forms.DockStyle.Fill;
             this.rtxt_reasonbonus.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rtxt_reasonbonus.Location = new System.Drawing.Point(0, 0);
-            this.rtxt_reasonbonus.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.rtxt_reasonbonus.Margin = new System.Windows.Forms.Padding(2);
             this.rtxt_reasonbonus.Name = "rtxt_reasonbonus";
             this.rtxt_reasonbonus.Size = new System.Drawing.Size(658, 77);
             this.rtxt_reasonbonus.TabIndex = 7;
@@ -354,28 +343,20 @@
             this.grid_listsalary.BackgroundColor = System.Drawing.Color.LightSteelBlue;
             this.grid_listsalary.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.grid_listsalary.Dock = System.Windows.Forms.DockStyle.Bottom;
-
-            this.grid_listsalary.Location = new System.Drawing.Point(0, 246);
-            this.grid_listsalary.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
-            this.grid_listsalary.Name = "grid_listsalary";
-            this.grid_listsalary.RowTemplate.Height = 28;
-            this.grid_listsalary.Size = new System.Drawing.Size(666, 231);
-
             this.grid_listsalary.Location = new System.Drawing.Point(0, 293);
-            this.grid_listsalary.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
+            this.grid_listsalary.Margin = new System.Windows.Forms.Padding(1);
             this.grid_listsalary.Name = "grid_listsalary";
             this.grid_listsalary.RowTemplate.Height = 28;
             this.grid_listsalary.Size = new System.Drawing.Size(666, 184);
-
             this.grid_listsalary.TabIndex = 0;
             // 
             // pictureBox1
             // 
-            this.pictureBox1.BackgroundImage = global::EmployeeManagerment_UI.Properties.Resources.salary_01;
+            this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Top;
             this.pictureBox1.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(1);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(861, 130);
             this.pictureBox1.TabIndex = 14;
@@ -385,7 +366,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::EmployeeManagerment_UI.Properties.Resources.Untitled_1_01;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(861, 607);
             this.Controls.Add(this.panel1);
@@ -397,7 +378,7 @@
             this.Controls.Add(this.pictureBox1);
             this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "SalaryForm";
