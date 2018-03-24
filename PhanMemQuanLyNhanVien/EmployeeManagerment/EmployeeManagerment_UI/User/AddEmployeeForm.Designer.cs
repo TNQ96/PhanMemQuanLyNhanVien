@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AddEmployeeForm));
             this.panel1 = new System.Windows.Forms.Panel();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
@@ -69,6 +70,7 @@
             this.txt_numerical = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.tab_address = new System.Windows.Forms.TabPage();
+            this.rtxtproduce = new System.Windows.Forms.RichTextBox();
             this.cbb_city = new System.Windows.Forms.ComboBox();
             this.cbb_relationship = new System.Windows.Forms.ComboBox();
             this.label26 = new System.Windows.Forms.Label();
@@ -88,7 +90,6 @@
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.btn_backaddemployee = new System.Windows.Forms.Button();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
-            this.rtxtproduce = new System.Windows.Forms.RichTextBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -124,7 +125,7 @@
             // pictureBox3
             // 
             this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox3.BackgroundImage = global::EmployeeManagerment_UI.Properties.Resources.ae_01;
+            this.pictureBox3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox3.BackgroundImage")));
             this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox3.Location = new System.Drawing.Point(0, 0);
             this.pictureBox3.Name = "pictureBox3";
@@ -155,7 +156,7 @@
             // 
             // tab_infomation
             // 
-            this.tab_infomation.BackgroundImage = global::EmployeeManagerment_UI.Properties.Resources.Untitled_1_01;
+            this.tab_infomation.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("tab_infomation.BackgroundImage")));
             this.tab_infomation.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.tab_infomation.Controls.Add(this.dtp_dateendwork);
             this.tab_infomation.Controls.Add(this.label22);
@@ -366,7 +367,7 @@
             this.txt_basicsalary.Name = "txt_basicsalary";
             this.txt_basicsalary.Size = new System.Drawing.Size(134, 29);
             this.txt_basicsalary.TabIndex = 15;
-            this.txt_basicsalary.Text = "750000";
+            this.txt_basicsalary.Text = "1050000";
             // 
             // label15
             // 
@@ -472,7 +473,7 @@
             this.txt_ic.Name = "txt_ic";
             this.txt_ic.Size = new System.Drawing.Size(134, 29);
             this.txt_ic.TabIndex = 9;
-            this.txt_ic.Text = "01234568";
+            this.txt_ic.Text = "025626184";
             // 
             // label9
             // 
@@ -520,7 +521,7 @@
             this.txt_email.Name = "txt_email";
             this.txt_email.Size = new System.Drawing.Size(134, 29);
             this.txt_email.TabIndex = 6;
-            this.txt_email.Text = "abc@gmail.com";
+            this.txt_email.Text = "quangtrieu2510@gmail.com";
             // 
             // label7
             // 
@@ -620,7 +621,7 @@
             this.txt_firstname.Name = "txt_firstname";
             this.txt_firstname.Size = new System.Drawing.Size(134, 29);
             this.txt_firstname.TabIndex = 2;
-            this.txt_firstname.Text = "Ngọc";
+            this.txt_firstname.Text = "Triệu";
             // 
             // label3
             // 
@@ -644,7 +645,7 @@
             this.txt_lastname.Name = "txt_lastname";
             this.txt_lastname.Size = new System.Drawing.Size(134, 29);
             this.txt_lastname.TabIndex = 1;
-            this.txt_lastname.Text = "Nguyễn";
+            this.txt_lastname.Text = "Huỳnh";
             // 
             // label2
             // 
@@ -683,7 +684,7 @@
             // 
             // tab_address
             // 
-            this.tab_address.BackgroundImage = global::EmployeeManagerment_UI.Properties.Resources.Untitled_1_01;
+            this.tab_address.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("tab_address.BackgroundImage")));
             this.tab_address.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.tab_address.Controls.Add(this.rtxtproduce);
             this.tab_address.Controls.Add(this.cbb_city);
@@ -706,6 +707,14 @@
             this.tab_address.TabIndex = 1;
             this.tab_address.Text = "Địa chỉ thường trú";
             this.tab_address.UseVisualStyleBackColor = true;
+            // 
+            // rtxtproduce
+            // 
+            this.rtxtproduce.Location = new System.Drawing.Point(27, 240);
+            this.rtxtproduce.Name = "rtxtproduce";
+            this.rtxtproduce.Size = new System.Drawing.Size(630, 192);
+            this.rtxtproduce.TabIndex = 77;
+            this.rtxtproduce.Text = "Datatest";
             // 
             // cbb_city
             // 
@@ -910,17 +919,18 @@
             // 
             // ptb_image
             // 
-            this.ptb_image.Image = global::EmployeeManagerment_UI.Properties.Resources.if_Pokemon_Go_15_1320026;
+            this.ptb_image.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("ptb_image.BackgroundImage")));
+            this.ptb_image.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ptb_image.Location = new System.Drawing.Point(21, 140);
             this.ptb_image.Name = "ptb_image";
-            this.ptb_image.Size = new System.Drawing.Size(145, 153);
+            this.ptb_image.Size = new System.Drawing.Size(132, 121);
             this.ptb_image.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.ptb_image.TabIndex = 39;
             this.ptb_image.TabStop = false;
             // 
             // btn_reset
             // 
-            this.btn_reset.BackgroundImage = global::EmployeeManagerment_UI.Properties.Resources.h_01;
+            this.btn_reset.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.btn_reset.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.btn_reset.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn_reset.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -930,12 +940,13 @@
             this.btn_reset.Name = "btn_reset";
             this.btn_reset.Size = new System.Drawing.Size(186, 48);
             this.btn_reset.TabIndex = 20;
-            this.btn_reset.UseVisualStyleBackColor = true;
+            this.btn_reset.Text = "Huỷ";
+            this.btn_reset.UseVisualStyleBackColor = false;
             this.btn_reset.Click += new System.EventHandler(this.btn_reset_Click);
             // 
             // btn_ok
             // 
-            this.btn_ok.BackgroundImage = global::EmployeeManagerment_UI.Properties.Resources.ac_01;
+            this.btn_ok.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.btn_ok.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.btn_ok.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn_ok.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -945,12 +956,13 @@
             this.btn_ok.Name = "btn_ok";
             this.btn_ok.Size = new System.Drawing.Size(186, 48);
             this.btn_ok.TabIndex = 19;
-            this.btn_ok.UseVisualStyleBackColor = true;
+            this.btn_ok.Text = "Chấp Nhận";
+            this.btn_ok.UseVisualStyleBackColor = false;
             this.btn_ok.Click += new System.EventHandler(this.btn_ok_Click);
             // 
             // btn_addimage
             // 
-            this.btn_addimage.BackgroundImage = global::EmployeeManagerment_UI.Properties.Resources.themanhbtn_01;
+            this.btn_addimage.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.btn_addimage.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.btn_addimage.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn_addimage.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -960,13 +972,14 @@
             this.btn_addimage.Name = "btn_addimage";
             this.btn_addimage.Size = new System.Drawing.Size(186, 48);
             this.btn_addimage.TabIndex = 18;
-            this.btn_addimage.UseVisualStyleBackColor = true;
+            this.btn_addimage.Text = "Thêm Ảnh";
+            this.btn_addimage.UseVisualStyleBackColor = false;
             this.btn_addimage.Click += new System.EventHandler(this.btn_addimage_Click);
             // 
             // pictureBox5
             // 
             this.pictureBox5.BackColor = System.Drawing.Color.Tomato;
-            this.pictureBox5.BackgroundImage = global::EmployeeManagerment_UI.Properties.Resources.Untitled_1_01;
+            this.pictureBox5.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox5.BackgroundImage")));
             this.pictureBox5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox5.Location = new System.Drawing.Point(-13, 32);
             this.pictureBox5.Name = "pictureBox5";
@@ -977,27 +990,22 @@
             // 
             // btn_backaddemployee
             // 
-            this.btn_backaddemployee.BackgroundImage = global::EmployeeManagerment_UI.Properties.Resources.Trolaibtn_01;
+            this.btn_backaddemployee.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.btn_backaddemployee.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_backaddemployee.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btn_backaddemployee.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.btn_backaddemployee.Location = new System.Drawing.Point(-4, 520);
+            this.btn_backaddemployee.Margin = new System.Windows.Forms.Padding(2);
             this.btn_backaddemployee.Name = "btn_backaddemployee";
             this.btn_backaddemployee.Size = new System.Drawing.Size(186, 48);
-            this.btn_backaddemployee.TabIndex = 41;
-            this.btn_backaddemployee.UseVisualStyleBackColor = true;
+            this.btn_backaddemployee.TabIndex = 20;
+            this.btn_backaddemployee.Text = "Quay lại";
+            this.btn_backaddemployee.UseVisualStyleBackColor = false;
             this.btn_backaddemployee.Click += new System.EventHandler(this.btn_backaddemployee_Click);
             // 
             // openFileDialog1
             // 
             this.openFileDialog1.FileName = "openFileDialog1";
-            // 
-            // rtxtproduce
-            // 
-            this.rtxtproduce.Location = new System.Drawing.Point(27, 240);
-            this.rtxtproduce.Name = "rtxtproduce";
-            this.rtxtproduce.Size = new System.Drawing.Size(630, 192);
-            this.rtxtproduce.TabIndex = 77;
-            this.rtxtproduce.Text = "Datatest";
             // 
             // AddEmployeeForm
             // 
