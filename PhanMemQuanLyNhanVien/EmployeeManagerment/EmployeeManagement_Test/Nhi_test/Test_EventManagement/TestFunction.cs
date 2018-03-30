@@ -9,19 +9,19 @@ namespace EmployeeManagement_Test.Nhi_test.Test_EventManagement
     [TestClass]
     public class TestFuntion
     {
-        private PdbBonusSalary TestLuong;
+        private PdbBonusSalary TestSalary;
         private PdbStaff Test_staff;
         [TestInitialize]
         public void Setup()
         {
-            TestLuong = new PdbBonusSalary();
-            TestLuong.IDBS = Guid.NewGuid();
-            TestLuong.IDStaff = new Guid("CFACFF13-F9D6-44D4-8ADE-F5B22FB627C1");
-            TestLuong.MoneyBonus = 4000;
-            TestLuong.DayBonus = DateTime.Now;
-            TestLuong.ReasonBonus = "i don't know";
-            TestLuong.MonthBonus = "12";
-            TestLuong.YearBonus = "2017";
+            TestSalary = new PdbBonusSalary();
+            TestSalary.IDBS = Guid.NewGuid();
+            TestSalary.IDStaff = new Guid("CFACFF13-F9D6-44D4-8ADE-F5B22FB627C1");
+            TestSalary.MoneyBonus = 4000;
+            TestSalary.DayBonus = DateTime.Now;
+            TestSalary.ReasonBonus = "i don't know";
+            TestSalary.MonthBonus = "12";
+            TestSalary.YearBonus = "2017";
 
             Test_staff = new PdbStaff();
             Test_staff.ID_Staff = Guid.NewGuid();
@@ -53,14 +53,14 @@ namespace EmployeeManagement_Test.Nhi_test.Test_EventManagement
         }
 
         [TestMethod]
-        public void TestSalaryAdd()
+        public void TestThemLuong()
         {
             bool check = new Salary(new EmployeeManagementDBContext()) { }.Add(TestSalary);
             Assert.AreNotEqual(check, false);
         }
 
         [TestMethod]
-        public void TestSalaryEdit()
+        public void TestSuaLuong()
         {
             TestSalary.IDBS = new Guid("72F22668-143F-4F20-B083-EABC9CEAA3AA");
             TestSalary.ReasonBonus = "Edit";
