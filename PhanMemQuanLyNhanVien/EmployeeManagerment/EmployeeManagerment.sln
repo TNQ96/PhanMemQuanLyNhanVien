@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeManagerment_UI", "E
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeManagement_Service", "EmployeeManagement_Service\EmployeeManagement_Service.csproj", "{710C363C-AE13-459F-BB45-37B73F06980D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeManagement_Test", "..\..\..\TeamKTPM_EmployeeManagement-master\EmployeeManagerment\EmployeeManagement_Test\EmployeeManagement_Test.csproj", "{5D1C0552-F8A2-4ACD-86D2-9D9DAACE276F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeManagement_Test", "EmployeeManagement_Test\EmployeeManagement_Test.csproj", "{5D1C0552-F8A2-4ACD-86D2-9D9DAACE276F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
