@@ -62,8 +62,8 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
-    <Compile Include="Hao_test\Test_EventManagement\TestCtor.cs" />
-    <Compile Include="Hao_test\Test_EventManagement\TestFunction.cs" />
+    <Compile Include="Nhi_test\Test_EventManagement\TestCtor.cs" />
+    <Compile Include="Nhi_test\Test_EventManagement\TestFunction.cs" />
     <Compile Include="Khanh_Test\Test_EventManagement\TestCtor.cs" />
     <Compile Include="Khanh_Test\Test_EventManagement\Testevent.cs" />
     <Compile Include="Khanh_Test\Test_EventManagement\TestFeedback.cs" />
