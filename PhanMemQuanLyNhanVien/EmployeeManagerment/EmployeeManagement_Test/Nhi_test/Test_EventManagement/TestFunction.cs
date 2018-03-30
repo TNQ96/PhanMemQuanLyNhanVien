@@ -4,24 +4,24 @@ using System.Collections.Generic;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using EmployeeManagement_Service.ModelDBContext;
 using EmployeeManagement_Service.Service.Module;
-namespace EmployeeManagement_Test.Hao_test.Test_EventManagement
+namespace EmployeeManagement_Test.Nhi_test.Test_EventManagement
 {
     [TestClass]
     public class TestFuntion
     {
-        private PdbBonusSalary TestSalary;
+        private PdbBonusSalary TestLuong;
         private PdbStaff Test_staff;
         [TestInitialize]
         public void Setup()
         {
-            TestSalary = new PdbBonusSalary();
-            TestSalary.IDBS = Guid.NewGuid();
-            TestSalary.IDStaff = new Guid("CFACFF13-F9D6-44D4-8ADE-F5B22FB627C1");
-            TestSalary.MoneyBonus = 4000;
-            TestSalary.DayBonus = DateTime.Now;
-            TestSalary.ReasonBonus = "i don't know";
-            TestSalary.MonthBonus = "12";
-            TestSalary.YearBonus = "2017";
+            TestLuong = new PdbBonusSalary();
+            TestLuong.IDBS = Guid.NewGuid();
+            TestLuong.IDStaff = new Guid("CFACFF13-F9D6-44D4-8ADE-F5B22FB627C1");
+            TestLuong.MoneyBonus = 4000;
+            TestLuong.DayBonus = DateTime.Now;
+            TestLuong.ReasonBonus = "i don't know";
+            TestLuong.MonthBonus = "12";
+            TestLuong.YearBonus = "2017";
 
             Test_staff = new PdbStaff();
             Test_staff.ID_Staff = Guid.NewGuid();
