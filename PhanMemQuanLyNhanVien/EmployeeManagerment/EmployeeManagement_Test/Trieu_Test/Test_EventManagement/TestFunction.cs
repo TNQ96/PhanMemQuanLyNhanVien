@@ -5,7 +5,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 using EmployeeManagement_Service.Service.Module;
 using EmployeeManagement_Service.ModelDBContext;
 
-namespace EmployeeManagement_Test.Phuc_Test.Test_EventManagement
+namespace EmployeeManagement_Test.Trieu_Test.Test_EventManagement
 {
     [TestClass]
     public class TestFunction
@@ -39,7 +39,7 @@ namespace EmployeeManagement_Test.Phuc_Test.Test_EventManagement
         }
 
         [TestMethod]
-        public void Contract_Add()
+        public void Them_Hop_Dong()
         {
             bool check = new Contracts(new EmployeeManagementDBContext()) { }.Add(Test_Contract);
             Assert.AreNotEqual(check, false);
