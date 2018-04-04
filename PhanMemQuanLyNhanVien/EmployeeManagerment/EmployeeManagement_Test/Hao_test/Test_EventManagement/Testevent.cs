@@ -61,7 +61,7 @@ namespace EmployeeManagement_Test.Hao_test.Test_EventManagement
             Assert.AreNotEqual(check, false);
         }
         [TestMethod]
-        public void Test_EventGet()
+        public void Test_LayEvent()
         {
             Test_Event.ID_Event = new Guid("4A1B325F-5114-4AA1-86F7-EE6C93642B1B");
             PdbEvent check = new Events(new EmployeeManagementDBContext()) { }.GetEvent(Test_Event.ID_Event);
