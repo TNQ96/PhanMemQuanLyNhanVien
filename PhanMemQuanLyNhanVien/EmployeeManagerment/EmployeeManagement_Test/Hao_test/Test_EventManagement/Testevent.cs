@@ -43,6 +43,7 @@ namespace EmployeeManagement_Test.Hao_test.Test_EventManagement
             Assert.AreNotEqual(check, false);
         }
         [TestMethod]
+
         public void Test_ChinhSuaEvent()
         {
             Test_Event = new PdbEvent();
@@ -52,7 +53,7 @@ namespace EmployeeManagement_Test.Hao_test.Test_EventManagement
             Test_Event.ActualCosts = 20000;
             Test_Event.DateStart = DateTime.Now;
             Test_Event.DateEnd = DateTime.Now;
-            Test_Event.Location = "Binh Duong";
+            Test_Event.Location = "Vung Tau";
             Test_Event.Scale = "phong IT";
             Test_Event.EventContent = "Di Choi";
             Test_Event.TravelBy = "xe hoi";
