@@ -69,7 +69,7 @@ namespace EmployeeManagement_Test.Nhi_test.Test_EventManagement
         }
 
         [TestMethod]
-        public void TestSalaryDelete()
+        public void TestXoaLuong()
         {
             bool check = new Salary(new EmployeeManagementDBContext()) { }.Delete(new Guid("C099B97F-AEBD-4F2B-96C6-6029A69417DA"));
             Assert.AreNotEqual(check, false);
