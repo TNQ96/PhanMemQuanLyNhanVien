@@ -76,7 +76,7 @@ namespace EmployeeManagement_Test.Trieu_Test.Test_EventManagement
         }
 
         [TestMethod]
-        public void EducationLevel_Add()
+        public void Them_Hoc_Van()
         {
             bool check = new EducationLevels(new EmployeeManagementDBContext()) { }.Add(Test_El);
             Assert.AreNotEqual(check, false);
