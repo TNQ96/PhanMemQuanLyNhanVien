@@ -83,7 +83,7 @@ namespace EmployeeManagement_Test.Nhi_test.Test_EventManagement
         }
 
         [TestMethod]
-        public void staff_edit()
+        public void SuaNV()
         {
             PdbStaff Staff = new PdbStaff();
             Staff = Test_staff;
