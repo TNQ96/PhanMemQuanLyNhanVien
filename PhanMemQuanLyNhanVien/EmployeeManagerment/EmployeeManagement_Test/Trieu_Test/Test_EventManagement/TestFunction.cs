@@ -67,7 +67,7 @@ namespace EmployeeManagement_Test.Trieu_Test.Test_EventManagement
         }
 
         [TestMethod]
-        public void Contract_Get()
+        public void Lay_HD()
         {
             Guid guid = new Guid("8E0DC287-5F62-4D61-BB26-686FF959C62A");
             //Test_Contract.IDContract = new Guid("8E0DC287-5F62-4D61-BB26-686FF959C62A");
