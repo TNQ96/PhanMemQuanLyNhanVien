@@ -46,7 +46,7 @@ namespace EmployeeManagement_Test.Trieu_Test.Test_EventManagement
         }
 
         [TestMethod]
-        public void Contract_Edit()
+        public void Chinh_Sua_HD()
         {
             PdbContract Contract = new PdbContract();
             Contract = Test_Contract;
