@@ -83,7 +83,7 @@ namespace EmployeeManagement_Test.Trieu_Test.Test_EventManagement
         }
 
         [TestMethod]
-        public void EducationLevel_Edit()
+        public void Chinh_Sua_Hoc_Van()
         {
             PdbEducationLevel EL = new PdbEducationLevel();
             EL = Test_El;
@@ -95,7 +95,7 @@ namespace EmployeeManagement_Test.Trieu_Test.Test_EventManagement
         }
 
         [TestMethod]
-        public void EducationLevel_Delete()
+        public void Xoa_Hoc_Van()
         {
             Guid guid = new Guid("7861B53B-7B7B-4603-BD4C-EBEDF7D3D4A7");
             //Test_El.ID_EL = new Guid("7861B53B-7B7B-4603-BD4C-EBEDF7D3D4A7");
@@ -104,7 +104,7 @@ namespace EmployeeManagement_Test.Trieu_Test.Test_EventManagement
         }
 
         [TestMethod]
-        public void EducationLevel_Get()
+        public void Lay_Bang_Cap()
         {
             Guid guid = new Guid("D43C27B2-5735-41EB-98DE-62AEA7113322");
             //Test_El.ID_EL = new Guid("D43C27B2-5735-41EB-98DE-62AEA7113322");
