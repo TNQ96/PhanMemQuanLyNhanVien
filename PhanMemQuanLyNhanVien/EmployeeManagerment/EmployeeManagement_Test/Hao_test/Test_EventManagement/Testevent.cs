@@ -5,7 +5,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 using EmployeeManagement_Service.ModelDBContext;
 using EmployeeManagement_Service.Service.Module;
 
-namespace EmployeeManagement_Test.Khanh_Test.Test_EventManagement
+namespace EmployeeManagement_Test.Hao_test.Test_EventManagement
 {
 
     [TestClass]
@@ -18,19 +18,19 @@ namespace EmployeeManagement_Test.Khanh_Test.Test_EventManagement
         {
             Test_Event = new PdbEvent();
             Test_Event.ID_Event = Guid.NewGuid();
-            Test_Event.EventName = "Hoang Ngoc Khanh";
+            Test_Event.EventName = "Nguyen Du Phuc Hao";
             Test_Event.ExpectedCost = 30000;
             Test_Event.CostsAwarded = 100000;
             Test_Event.ActualCosts = 20000;
             Test_Event.DateStart = DateTime.Now;
             Test_Event.DateEnd = DateTime.Now;
-            Test_Event.Location = "Vung Tau";
+            Test_Event.Location = "Binh Duong";
             Test_Event.Scale = "phong IT";
             Test_Event.EventContent = "Di Choi";
             Test_Event.TravelBy = "xe hoi";
         }
         [TestMethod]
-        public void Test_EventAdd()
+        public void Test_ThemEvent()
         {
             bool check = new Events(new EmployeeManagementDBContext()) { }.Add(Test_Event);
             Assert.AreNotEqual(check, false);
