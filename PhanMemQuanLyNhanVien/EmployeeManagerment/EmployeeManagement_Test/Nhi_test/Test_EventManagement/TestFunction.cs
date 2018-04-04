@@ -93,14 +93,14 @@ namespace EmployeeManagement_Test.Nhi_test.Test_EventManagement
             Assert.AreNotEqual(check, false);
         }
         [TestMethod]
-        public void Staff_Delete()
+        public void XoaNV()
         {
             Guid guid = new Guid("5a1c6fe2-c0b3-4939-ab6f-0b6e0b534775");
             bool check = new Staffs(new EmployeeManagementDBContext()) { }.Delete(guid);
             Assert.AreNotEqual(check, false);
         }
         [TestMethod]
-        public void Staff_Get()
+        public void LayNV()
         {
             Guid guid = new Guid("5a1c6fe2-c0b3-4939-ab6f-0b6e0b534775");
             //Test_Contract.IDContract = new Guid("8E0DC287-5F62-4D61-BB26-686FF959C62A");
