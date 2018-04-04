@@ -76,7 +76,7 @@ namespace EmployeeManagement_Test.Nhi_test.Test_EventManagement
         }
 
         [TestMethod]
-        public void Staff_add()
+        public void ThemNV()
         {
             bool check = new Staffs(new EmployeeManagementDBContext()) { }.Create(Test_staff);
             Assert.AreNotEqual(check, false);
