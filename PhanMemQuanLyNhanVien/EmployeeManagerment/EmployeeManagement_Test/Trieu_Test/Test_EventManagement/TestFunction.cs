@@ -46,7 +46,7 @@ namespace EmployeeManagement_Test.Trieu_Test.Test_EventManagement
         }
 
         [TestMethod]
-        public void Contract_Edit()
+        public void Chinh_Sua_HD()
         {
             PdbContract Contract = new PdbContract();
             Contract = Test_Contract;
@@ -58,7 +58,7 @@ namespace EmployeeManagement_Test.Trieu_Test.Test_EventManagement
         }
 
         [TestMethod]
-        public void Contract_Delete()
+        public void Xoa_HD()
         {
             Guid guid = new Guid("289739C5-3DAB-4CC4-8CF7-8BCF4632198A");
             //Test_Contract.IDContract = new Guid("289739C5-3DAB-4CC4-8CF7-8BCF4632198A");
