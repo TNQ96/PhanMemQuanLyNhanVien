@@ -43,10 +43,11 @@ namespace EmployeeManagement_Test.Hao_test.Test_EventManagement
             Assert.AreNotEqual(check, false);
         }
         [TestMethod]
-        public void Test_EventEdit()
+
+        public void Test_ChinhSuaEvent()
         {
             Test_Event = new PdbEvent();
-            Test_Event.EventName = "Hoang Ngoc Khanh223";
+            Test_Event.EventName = "Hao Nguyen";
             Test_Event.ExpectedCost = 30000;
             Test_Event.CostsAwarded = 100000;
             Test_Event.ActualCosts = 20000;
