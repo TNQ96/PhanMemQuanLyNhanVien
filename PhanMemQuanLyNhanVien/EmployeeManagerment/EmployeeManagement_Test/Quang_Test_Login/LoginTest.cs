@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using EmployeeManagement_Service.ModelDBContext;
 
-namespace EmployeeManagement_Test.NgocPhuong_Test
+namespace EmployeeManagement_Test.Quang_Test_Login
 {
     /// <summary>
     /// Summary description for LoginTest
@@ -19,14 +19,14 @@ namespace EmployeeManagement_Test.NgocPhuong_Test
         }
 
         [TestMethod]
-        public void TestLogin1()
+        public void Test_DN1()
         {
             PdbAccount ac = new EmployeeManagement_Service.Service.Basic.Functions.UserLogins() { }.CheckLogin("kt1", "kt1", "Kế toán");
             Assert.AreEqual(ac, null);
         }
 
         [TestMethod]
-        public void TestLogin2()
+        public void Test_DN2()
         {
             PdbAccount ac = new EmployeeManagement_Service.Service.Basic.Functions.UserLogins() { }.CheckLogin("bv1", "bv1", "Bảo vệ");
             Assert.AreNotEqual(ac, null);

@@ -3,7 +3,7 @@ using System.Text;
 using System.Collections.Generic;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace EmployeeManagement_Test.AnhPhuong_Test.Test_EventManagement
+namespace EmployeeManagement_Test.Nhi_test.Test_EventManagement
 {
     /// <summary>
     /// Summary description for TestCtor

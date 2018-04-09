@@ -67,7 +67,7 @@
     <Compile Include="Hao_test\Test_EventManagement\TestCtor.cs" />
     <Compile Include="Hao_test\Test_EventManagement\Testevent.cs" />
     <Compile Include="Hao_test\Test_EventManagement\TestFeedback.cs" />
-    <Compile Include="NgocPhuong_Test\LoginTest.cs" />
+    <Compile Include="Quang_Test_Login\LoginTest.cs" />
     <Compile Include="Trieu_Test\Test_EventManagement\TestCtor.cs" />
     <Compile Include="Trieu_Test\Test_EventManagement\TestFunction.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

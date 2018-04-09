@@ -25,13 +25,13 @@ namespace EmployeeManagement_Test.Quang_Test.Test_EventManagement
         }
 
         [TestMethod]
-        public void CreateAccount()
+        public void Test_Tao_TK()
         {
             bool checkadd = new Accounts(new EmployeeManagementDBContext()) { }.Create(account);
             Assert.AreNotEqual(checkadd, false);
         }
         [TestMethod]
-        public void UpdateAccount()
+        public void Test_Update_TK()
         {
             account = new PdbAccount();
             account.AccountName = "testupdate";
@@ -44,7 +44,7 @@ namespace EmployeeManagement_Test.Quang_Test.Test_EventManagement
             Assert.AreNotEqual(checkupdate, false);
         }
         [TestMethod]
-        public void DeleteAccount()
+        public void Test_Xoa_TK()
         {
             account = new PdbAccount();
             account.AccountName = "testdelete";

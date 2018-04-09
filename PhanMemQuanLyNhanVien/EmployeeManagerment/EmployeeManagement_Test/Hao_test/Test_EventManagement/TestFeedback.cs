@@ -28,21 +28,21 @@ namespace EmployeeManagement_Test.Khanh_Test.Test_EventManagement
             Test_FeedBack.UserShare = "good";
         }
         [TestMethod]
-        public void Test_FeedBackAdd()
+        public void Test_Them_Feedback()
         {
             bool check = new FeedBacks(new EmployeeManagementDBContext()) { }.Add(Test_FeedBack);
             Assert.AreNotEqual(check, false);
         }
 
         [TestMethod]
-        public void Test_FeedBackDelete()
+        public void Test_Xoa_Feedback()
         {
             Test_FeedBack.IDFeedBack = new Guid("429D45DF-D7E7-4227-B09C-3463551A1E59");
             bool check = new FeedBacks(new EmployeeManagementDBContext()) { }.Delete(Test_FeedBack.IDFeedBack);
             Assert.AreNotEqual(check, false);
         }
         [TestMethod]
-        public void Test_FeedBackGetEvent()
+        public void Test_Lay_Feedback()
         {
             Test_FeedBack.IDFeedBack = new Guid("65E81B74-6135-4315-9086-4CB0BB1401D8");
             PdbFeedBack check = new FeedBacks(new EmployeeManagementDBContext()) { }.GetEvent(Test_FeedBack.IDFeedBack);
