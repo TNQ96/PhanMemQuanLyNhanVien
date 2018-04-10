@@ -84,5 +84,18 @@ namespace EmployeeManagerment_UI.User
         {
 
         }
+
+        private void btn_editemployee_Click(object sender, EventArgs e)
+        {
+            EmployeeManagerment_UI.User.EditEmployeeForm addemform = new EditEmployeeForm();
+            this.Visible = true;
+            addemform.ShowDialog();
+            this.Visible = false;
+        }
+
+        private void btn_deleteemployee_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

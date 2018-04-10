@@ -89,5 +89,10 @@ namespace EmployeeManagerment_UI.User
                 }
             }
         }
+
+        private void btn_backeditemployee_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

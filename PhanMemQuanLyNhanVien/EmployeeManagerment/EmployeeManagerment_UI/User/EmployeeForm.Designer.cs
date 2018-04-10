@@ -704,7 +704,7 @@
             this.pictureBox3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox3.BackgroundImage")));
             this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox3.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(1148, 160);
             this.pictureBox3.TabIndex = 1;
@@ -716,7 +716,7 @@
             this.pictureBox4.BackColor = System.Drawing.Color.Maroon;
             this.pictureBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.pictureBox4.Location = new System.Drawing.Point(869, 0);
-            this.pictureBox4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox4.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(255, 160);
             this.pictureBox4.TabIndex = 6;
@@ -750,6 +750,7 @@
             this.btn_deleteemployee.TabIndex = 2;
             this.btn_deleteemployee.Text = "Xóa";
             this.btn_deleteemployee.UseVisualStyleBackColor = false;
+            this.btn_deleteemployee.Click += new System.EventHandler(this.btn_deleteemployee_Click);
             // 
             // btn_editemployee
             // 
@@ -764,6 +765,7 @@
             this.btn_editemployee.TabIndex = 3;
             this.btn_editemployee.Text = "Sửa";
             this.btn_editemployee.UseVisualStyleBackColor = false;
+            this.btn_editemployee.Click += new System.EventHandler(this.btn_editemployee_Click);
             // 
             // pictureBox2
             // 
@@ -771,7 +773,7 @@
             this.pictureBox2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox2.BackgroundImage")));
             this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox2.Location = new System.Drawing.Point(-4, 0);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(271, 747);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
@@ -783,7 +785,7 @@
             this.ptb_image.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("ptb_image.BackgroundImage")));
             this.ptb_image.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ptb_image.Location = new System.Drawing.Point(32, 172);
-            this.ptb_image.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.ptb_image.Margin = new System.Windows.Forms.Padding(4);
             this.ptb_image.Name = "ptb_image";
             this.ptb_image.Size = new System.Drawing.Size(171, 161);
             this.ptb_image.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -797,7 +799,7 @@
             this.btn_backemployee.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn_backemployee.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.btn_backemployee.Location = new System.Drawing.Point(-5, 640);
-            this.btn_backemployee.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btn_backemployee.Margin = new System.Windows.Forms.Padding(4);
             this.btn_backemployee.Name = "btn_backemployee";
             this.btn_backemployee.Size = new System.Drawing.Size(260, 59);
             this.btn_backemployee.TabIndex = 61;
