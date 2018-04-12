@@ -25,11 +25,5 @@ namespace EmployeeManagement_Test.Quang_Test_Login
             Assert.AreEqual(ac, null);
         }
 
-        [TestMethod]
-        public void Test_DN2()
-        {
-            PdbAccount ac = new EmployeeManagement_Service.Service.Basic.Functions.UserLogins() { }.CheckLogin("bv1", "bv1", "Bảo vệ");
-            Assert.AreNotEqual(ac, null);
-        }
     }
 }

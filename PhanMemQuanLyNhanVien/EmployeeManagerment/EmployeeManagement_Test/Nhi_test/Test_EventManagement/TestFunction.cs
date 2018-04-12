@@ -62,7 +62,7 @@ namespace EmployeeManagement_Test.Nhi_test.Test_EventManagement
         [TestMethod]
         public void TestSuaLuong()
         {
-            TestSalary.IDBS = new Guid("72F22668-143F-4F20-B083-EABC9CEAA3AA");
+            TestSalary.IDBS = new Guid("640184E8-605A-477F-B04A-297F4C553844");
             TestSalary.ReasonBonus = "Edit";
             bool check = new Salary(new EmployeeManagementDBContext()) { }.Edit(TestSalary);
             Assert.AreNotEqual(check, false);
@@ -71,7 +71,7 @@ namespace EmployeeManagement_Test.Nhi_test.Test_EventManagement
         [TestMethod]
         public void TestXoaLuong()
         {
-            bool check = new Salary(new EmployeeManagementDBContext()) { }.Delete(new Guid("C099B97F-AEBD-4F2B-96C6-6029A69417DA"));
+            bool check = new Salary(new EmployeeManagementDBContext()) { }.Delete(new Guid("640184E8-605A-477F-B04A-297F4C553844"));
             Assert.AreNotEqual(check, false);
         }
 
@@ -87,7 +87,7 @@ namespace EmployeeManagement_Test.Nhi_test.Test_EventManagement
         {
             PdbStaff Staff = new PdbStaff();
             Staff = Test_staff;
-            Staff.ID_Staff = new Guid("5a1c6fe2-c0b3-4939-ab6f-0b6e0b534775");
+            Staff.ID_Staff = new Guid("BF711301-4C0D-4056-A2DC-22AAA95787F2");
 
             bool check = new Staffs(new EmployeeManagementDBContext()) { }.Update(Test_staff);
             Assert.AreNotEqual(check, false);
@@ -95,7 +95,7 @@ namespace EmployeeManagement_Test.Nhi_test.Test_EventManagement
         [TestMethod]
         public void XoaNV()
         {
-            Guid guid = new Guid("5a1c6fe2-c0b3-4939-ab6f-0b6e0b534775");
+            Guid guid = new Guid("F42E5ECF-87D3-4E63-8F04-6D416F0034FA");
             bool check = new Staffs(new EmployeeManagementDBContext()) { }.Delete(guid);
             Assert.AreNotEqual(check, false);
         }

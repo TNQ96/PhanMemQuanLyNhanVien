@@ -50,7 +50,7 @@ namespace EmployeeManagement_Test.Trieu_Test.Test_EventManagement
         {
             PdbContract Contract = new PdbContract();
             Contract = Test_Contract;
-            Contract.IDContract = new Guid("7F93169E-BFBB-4121-A3A1-060F766A491B");
+            Contract.IDContract = new Guid("5E8C3FFA-EF12-4086-856D-3101962ECA14");
             Contract.PayForms = "Trực tiếp";
             Contract.ContractType = "Bảo hiểm";
             bool check = new Contracts(new EmployeeManagementDBContext()) { }.Edit(Contract);
@@ -60,7 +60,7 @@ namespace EmployeeManagement_Test.Trieu_Test.Test_EventManagement
         [TestMethod]
         public void Xoa_HD()
         {
-            Guid guid = new Guid("7F93169E-BFBB-4121-A3A1-060F766A491B");
+            Guid guid = new Guid("ED3A7210-D229-4E1F-A4E6-8274407419AF");
             //Test_Contract.IDContract = new Guid("289739C5-3DAB-4CC4-8CF7-8BCF4632198A");
             bool check = new Contracts(new EmployeeManagementDBContext()) { }.Delete(guid);
             Assert.AreNotEqual(check, false);
@@ -87,7 +87,7 @@ namespace EmployeeManagement_Test.Trieu_Test.Test_EventManagement
         {
             PdbEducationLevel EL = new PdbEducationLevel();
             EL = Test_El;
-            EL.ID_EL = new Guid("07B13ECF-5AA6-42A2-81E7-9A9A750A2149");
+            EL.ID_EL = new Guid("C956A136-A1B3-4183-AADD-AB5618B57D5E");
             EL.Result = "Pass";
             EL.PlaceProvide = "Đại học bách khoa HN";
             bool check = new EducationLevels(new EmployeeManagementDBContext()) { }.Edit(EL);
@@ -97,7 +97,7 @@ namespace EmployeeManagement_Test.Trieu_Test.Test_EventManagement
         [TestMethod]
         public void Xoa_Hoc_Van()
         {
-            Guid guid = new Guid("07B13ECF-5AA6-42A2-81E7-9A9A750A2149");
+            Guid guid = new Guid("C956A136-A1B3-4183-AADD-AB5618B57D5E");
             //Test_El.ID_EL = new Guid("7861B53B-7B7B-4603-BD4C-EBEDF7D3D4A7");
             bool check = new EducationLevels(new EmployeeManagementDBContext()) { }.Delete(guid);
             Assert.AreNotEqual(check, false);

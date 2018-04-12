@@ -38,7 +38,7 @@ namespace EmployeeManagement_Test.Hao_test.Test_EventManagement
         [TestMethod]
         public void Test_EventDelete()
         {
-            Test_Event.ID_Event = new Guid("0CFCB337-663B-4B61-8932-3A89B09D25AA");
+            Test_Event.ID_Event = new Guid("2854FF57-F49C-42BA-888E-6FEC1B10DFFC");
             bool check = new Events(new EmployeeManagementDBContext()) { }.Delete(Test_Event.ID_Event);
             Assert.AreNotEqual(check, false);
         }
@@ -56,7 +56,7 @@ namespace EmployeeManagement_Test.Hao_test.Test_EventManagement
             Test_Event.Scale = "phong IT";
             Test_Event.EventContent = "Di Choi";
             Test_Event.TravelBy = "xe hoi";
-            Test_Event.ID_Event = new Guid("8ECE2A2D-C5A0-498C-A5BE-D47CF3399FC6");
+            Test_Event.ID_Event = new Guid("2854FF57-F49C-42BA-888E-6FEC1B10DFFC");
             bool check = new Events(new EmployeeManagementDBContext()) { }.Edit(Test_Event);
             Assert.AreNotEqual(check, false);
         }

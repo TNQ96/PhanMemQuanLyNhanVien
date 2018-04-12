@@ -37,7 +37,7 @@ namespace EmployeeManagement_Test.Khanh_Test.Test_EventManagement
         [TestMethod]
         public void Test_Xoa_Feedback()
         {
-            Test_FeedBack.IDFeedBack = new Guid("429D45DF-D7E7-4227-B09C-3463551A1E59");
+            Test_FeedBack.IDFeedBack = new Guid("E9F4C69A-046D-4350-9C58-0D635C48189D");
             bool check = new FeedBacks(new EmployeeManagementDBContext()) { }.Delete(Test_FeedBack.IDFeedBack);
             Assert.AreNotEqual(check, false);
         }
